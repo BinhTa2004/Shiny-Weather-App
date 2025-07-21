@@ -24,7 +24,7 @@ A user-friendly Shiny web application that allows users to view and analyze weat
 ## 🖼️ Demo Screenshot
 
 <p align="center">
-  <img src="www/screenshot.png" width="600" alt="Shiny Weather App Screenshot">
+  <img src="www/Demo.png" width="600" alt="Shiny Weather App Screenshot">
 </p>
 
 ---
