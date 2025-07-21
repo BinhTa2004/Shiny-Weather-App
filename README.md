@@ -44,3 +44,10 @@ Ensure you have the following R packages installed:
 
 ```r
 install.packages(c("shiny", "leaflet", "httr", "jsonlite", "plotly", "dplyr"))
+```
+
+---
+
+## 🌐 Live Demo
+
+🔗 Try it now: [https://hevfc3-bin-ta.shinyapps.io/AppWeather/](https://hevfc3-bin-ta.shinyapps.io/AppWeather/)
