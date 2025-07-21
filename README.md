@@ -1,20 +1,46 @@
-#🌦️ Shiny Weather App 
+# 🌦️ Shiny Weather App
+A user-friendly Shiny web application that allows users to view and analyze weather forecasts by inputting geographic coordinates. The app integrates interactive maps and charts with real-time and forecasted weather data from the OpenWeather API.
 
-This is a Shiny web application that shows weather data by coordinates using OpenWeather API.
+---
 
-## Features
-- Enter coordinates to view weather
-- 7-day forecast with charts
-- Interactive map using leaflet
-- Custom time selection
+## 🚀 Features
+- 📍 **Coordinate-based Weather Retrieval**  
+  Enter latitude and longitude to fetch accurate weather data for any location in the world.
 
-## Demo Screenshot
-![screenshot](www/screenshot.png)
+- 🗺️ **Interactive Map (Leaflet)**  
+  Visualize and click directly on the map to select a location.
 
-## How to Run
-1. Clone repo
-2. Install packages in R
-3. Run `app.R`
+- 📊 **7-Day Forecast Visualization**  
+  Line charts for daily temperature trends using `plotly` or `ggplot2`.
 
-## API Used
-- [OpenWeather API](https://openweathermap.org/api)
+- ⏱️ **Hourly Forecast Selection**  
+  Choose a specific day and hour to view detailed forecast info (temperature, humidity, weather condition...).
+
+- 🌐 **Real-time API Integration**  
+  Powered by [OpenWeatherMap API](https://openweathermap.org/api).
+
+---
+
+## 🖼️ Demo Screenshot
+
+<p align="center">
+  <img src="www/screenshot.png" width="600" alt="Shiny Weather App Screenshot">
+</p>
+
+---
+
+## 🛠️ Technologies Used
+- [R Shiny](https://shiny.posit.co/)
+- [Leaflet](https://rstudio.github.io/leaflet/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+- [Plotly](https://plotly.com/r/)
+- [dplyr](https://dplyr.tidyverse.org/), [httr](https://cran.r-project.org/web/packages/httr/), [jsonlite](https://cran.r-project.org/web/packages/jsonlite/)
+
+---
+
+## 🧪 How to Run
+### 📦 Prerequisites
+Ensure you have the following R packages installed:
+
+```r
+install.packages(c("shiny", "leaflet", "httr", "jsonlite", "plotly", "dplyr"))
