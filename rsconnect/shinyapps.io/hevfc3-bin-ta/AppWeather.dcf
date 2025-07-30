@@ -1,0 +1,13 @@
+name: AppWeather
+title: AppWeather
+username: hevfc3-bin-ta
+account: hevfc3-bin-ta
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15100408
+bundleId: 10671738
+url: https://hevfc3-bin-ta.shinyapps.io/AppWeather/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: style/custom.js|www/Demo.png
